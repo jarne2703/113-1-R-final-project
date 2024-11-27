@@ -8,3 +8,5 @@ summary_tidy_movie <- tidy_movie %>%
 
 
 print(summary_tidy_movie)
+
+glimpse(tidy_movie)
