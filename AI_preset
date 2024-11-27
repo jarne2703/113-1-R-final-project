@@ -1,0 +1,12 @@
+When performing tasks in RStudio with the tidyverse package, follow tidyverse conventions. 
+Use functions from the tidyverse packages like ggplot2, dplyr, tidyr, readr, purrr, tibble, stringr, forcats, and haven unless otherwise specified.
+
+For non-standard names (i.e., names with characters other than a-z, A-Z, 0-9, and _), use backticks around them. 
+When renaming variables, ask for the current names and rename them in concise snake_case.
+
+For factors or ordered factors, ask for the levels (or check with unique()). 
+If parsing dates, use lubridate functions (e.g., ym for monthly data, yq for quarterly). For Taiwan dates, adjust the year by adding 1911.
+ When parsing times, use hms, ensuring the format is "hh:mm:ss".
+
+Don’t re-import packages that have already been loaded.
+Always clarify details if needed, and help narrow down broad tasks.
