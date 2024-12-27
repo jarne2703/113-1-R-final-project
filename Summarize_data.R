@@ -1,5 +1,5 @@
 summary_tidy_movie <- tidy_movie %>%
-  group_by(movie_genre) %>%       # Group by genre
+  group_by(movie_genre) %>%       
   summarize(
     movie_count = n(),      
     avg_rating = mean(imdb_rating, na.rm = TRUE), 
